@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JioSaavan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+
+</head>
+<body class="bg-gray-50 text-white">
+<header>
+  <nav class="fixed top-0 left-0 w-full flex justify-between items-center px-4 py-2 bg-gray-800 text-white">
+    <div class="flex gap-4"> 
+      <div class="font-bold">JioSaavan</div>
+      <div class="hover:text-gray-300"><a href="#">Music</a></div> 
+      <div class="hover:text-gray-300"><a href="#">Podcast</a></div>
+      <div class="hover:text-gray-300"><a href="#">Pro</a></div>
+    </div>
+    <div>
+      <input type="text" placeholder="search" class=" px-4 py-2 rounded-full bg-gray-50 text-gray-800 ">
+    </div>
+    <div class="flex gap-4">
+        <select class="bg-black">
+          <option>Music Languages</option>
+          <option>English</option>
+          <option>Tamil</option>
+          <option>Hindi</option>
+          <option>Telugu</option>
+        </select>
+        <div class="hover:text-gray-300"><a href="login.html">Log in</a></div>
+        <div class="hover:text-gray-300"><a href="#">Sign Up</a></div>
+    </div>
+
+  </nav>
+</header>
+<br>
+<br>
+<main class="flex">
+  <aside class="flex-col w-64 text-gray-600">
+    <h3  class="text-gray-900 px-5">Browser</h3>
+      <br>
+      <ul class="space-y-2 px-5">
+        <li class="text-gray-800 hover:text-black font-bold "><a href="#">New Releases</a></li>
+        <li class="text-gray-800 hover:text-black font-bold"><a href="#">Top Charts</a></li>
+        <li class="text-gray-800 hover:text-black font-bold"><a href="#">Top Playlists</a></li>
+        <li class="text-gray-800 hover:text-black font-bold"><a href="#">Podcasts</a></li>
+        <li class="text-gray-800 hover:text-black font-bold"><a href="#">Top Artist</a></li>
+        <li class="text-gray-800 hover:text-black font-bold"><a href="#">Radio</a></li>
+      </ul>
+      <br>
+     <div class="text-gray-900 px-4">Library</div>
+      <br>
+      <ul class="flex flex-col space-y-2">
+        <li class="text-gray-800 hover:text-black font-bold px-3">
+          <a href="#"><i class="fa-solid fa-clock-rotate-left px-2"></i>History</a>
+        </li>
+        <li class="text-gray-800 hover:text-black font-bold px-5">
+          <a href="#">&#9834 Liked Songs</a>
+        </li>
+        <li class="text-gray-800 hover:text-black font-bold px-3">
+          <a href="#"><i class="fa-solid fa-record-vinyl px-2"></i>Albums</a>
+        </li>
+        <li class="text-gray-800 hover:text-black font-bold px-3">
+          <a href="#"><i class="fa-solid fa-podcast px-2"></i>Podcasts</a>
+        </li>
+        <li class="text-gray-800 hover:text-black font-bold px-3">
+          <a href="#"><i class="fa-solid fa-microphone px-2"></i>Artists</a>
+        </li>
+        <li>
+          <button class="border-blue-500 border-2 text-blue-500 py-2 px-2 rounded-2xl hover:bg-blue-600"> + New Playlists</button>
+        </li>
+      </ul>
+      
+      
+  </aside> 
+
+
+
+
+<main class="w-3/4 p-4 ">
+  <h2 class="text-black font-bold text-2xl" >Trending Songs</h2>
+  <br>
+  <div class="grid grid-cols-6 gap-3">
+    <div class="bg-white-100 text-black">
+      <img src="./images/minalle.jpeg" alt="amaran" class="w-full h-auto">
+      <h1>Hey Minnale (From "Amaran") (Tamil)</h1>
+    </div>
+    <div class="bg-white-100 text-black">
+      <img src="./images/after hours.jpeg" alt="afterhours" class="w-full h-auto">
+      <h1>After hours (by Weekend) (English)</h1>
+    </div>
+    <div class="bg-white-100 text-black">
+      <img src="./images/agar tunm saath ho.jpeg" alt="agar tum saath ho" class="w-full h-auto">
+      <h1>Agar tum saath hoo (From "Tamasha") (Hindi)</h1>
+    </div>
+    <div class="bg-white-100 text-black">
+      <img src="./images/harley in hawaai.jpeg" alt="Harley in hawaai" class="w-full h-auto">
+      <h1>Harley in Hawaai (by Kate Perry) (English)</h1>
+    </div>
+    <div class="bg-white-100 text-black">
+      <img src="./images/enna sona.jpeg" alt="enna sona" class="w-full h-auto">
+      <h1>Enna Sona (From "OK JAANU") (Hindi)</h1>
+    </div>
+    <div class="bg-white-100 text-black">
+      <img src="./images/yedi.jpeg" alt="Yedi" class="w-full h-auto">
+      <h1>Yedi (From "Neek") (Tamil)</h1>
+    </div>
+  </div>
+  <br>
+  <h2 class="text-black font-bold text-2xl" >Top Charts</h2>
+  <br>
+  <div class="grid grid-cols-6 gap-3">
+    <div class="bg-white-100 text-black">
+      <img src="./images/Big Dawaans.jpeg" alt="Big Dawaans" class="w-full h-auto">
+      <h1>Big Dawgs (by HanumanKind) (English)</h1>
+    </div>
+    <div class="bg-white-100 text-black">
+      <img src="./images/tum hi ho.jpg" alt="Tum Hi ho" class="w-full h-auto">
+      <h1>Tum hi ho (From "Ashiqui 2") (Hindi)</h1>
+    </div>
+    <div class="bg-white-100 text-black">
+      <img src="./images/alaipaythey.jpeg" alt="alaipaythey" class="w-full h-auto">
+      <h1>Kadhal Sadugudu (From "Alaipayuthey") (Tamil)</h1>
+    </div>
+    <div class="bg-white-100 text-black">
+      <img src="./images/galliyan.jpeg" alt="Galliyan" class="w-full h-auto">
+      <h1>Galliyan (From "Ek Villain") (Hindi)</h1>
+    </div>
+    <div class="bg-white-100 text-black">
+      <img src="./images/heat waves.jpeg" alt="Heat waves" class="w-full h-auto">
+      <h1>Heat waves (By Glass Animals) (English)</h1>
+    </div>
+    <div class="bg-white-100 text-black">
+      <img src="./images/kun faya kun.jpeg" alt="Kun faya kun" class="w-full h-auto">
+      <h1>Kun Faya Kun (From "Rockstar") (Hindi)</h1>
+    </div>
+
+
+  </div>
+</main>
+<footer class="fixed bottom-0 left-0 w-full bg-gray-800 shadow-md">
+ <div class="flex items-center justify-between px-3 py-4" >
+  <div class="flex item-center gap-2">
+    <img src="./images/manipaya.jpeg" alt="anbil" class="w-12 h-12 rounded- md">
+    <h1  class="text-white text-left hover:text-gray-300">Tap to play</h1>
+  </div>
+  <button class="text-white hover:text-gray-300 px-14 justify-between gap-3">
+    <i class="fa-solid fa-repeat"></i>
+    <i class="fa-solid fa-backward"></i>
+    <i class="fa-solid fa-play"></i>
+    <i class="fa-solid fa-forward"></i>
+    <i class="fa-solid fa-shuffle"></i>
+ </button>
+ <div class="justify-end text-white gap-3">
+   <span class="text-sm  ">0:00/3:49</span>
+   <button class=" hover:text-gray-300 px-3"><i class="fas fa-ellipsis-h"></i></button>
+   <button class=" hover:text-gray-300 px-3"><i class="fas fa-volume-up"></i></button>
+   <button class=" hover:text-gray-300 px-3"><i class="fas fa-expand"></i></button>
+ </div>
+</div>
+
+
+  
+
+
+
+
+
+  
+</footer>
+
+  
